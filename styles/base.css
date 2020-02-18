@@ -1,8 +1,22 @@
+
+@import url(./fonts.css);
+@import url(./header.css);
+@import url(./summer-with-lays.css);
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-@import url(./fonts.css);
-@import url(./header.css);
+.container-site {
+  max-width: 1375px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.main-section {
+  flex: 1250px;
+}
+
