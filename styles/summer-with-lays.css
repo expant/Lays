@@ -2,3 +2,56 @@
   background: url('../assets/images/summer-with-lays/background.jpg') no-repeat 0 0;
   height: 580px;
 }
+
+.summer-with-lays__icons {
+  max-width: 550px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin-left: 62px;
+  padding-top: 67px;
+}
+
+.icons__item {
+  width: 30%;
+  text-align: center;
+
+}
+
+.bg-icon {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.bg-photo {
+  background: url("../assets/images/summer-with-lays/photo.png") #ffffff no-repeat 50% 50%;
+  background-size: 92%;
+}
+
+.bg-heart {
+  background: url("../assets/images/summer-with-lays/heart.png") #ffffff no-repeat 50% 50%;
+  background-size: 90%;
+}
+
+.bg-box {
+  background: url("../assets/images/summer-with-lays/box.png") #ffffff no-repeat 50% 50%;
+  background-size: 90%;
+}
+
+.icons-text {
+  font-family: "GothamPro";
+  font-size: 16px;
+  margin-top: 17px;
+  color: #45370A;
+  line-height: 19px;
+}
+
+.box-text {
+  margin-top: 13px;
+}
+
+.icons-text__color {
+  color: #f73934;
+}
