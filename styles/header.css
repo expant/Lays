@@ -1,10 +1,13 @@
 .header {
   flex: 150px;
+  min-width: 150px;
   height: auto;
   background: #f6f6f6;
 }
 
 .menu {
+  width: 150px;
+  position: fixed;
   text-align: center;
 }
 
