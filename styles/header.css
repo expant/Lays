@@ -1,4 +1,62 @@
 .header {
-  flex: 125px;
-  height: 100%;
+  flex: 150px;
+  height: auto;
+  background: #f6f6f6;
+}
+
+.menu {
+  text-align: center;
+}
+
+.meny__logo {
+  font-family: "GothamPro Medium";
+  font-size: 16px;
+  color: #f73934;
+  margin-top: 25px;
+  margin-bottom: 66px;
+}
+
+.meny__logo .logo-text {
+  margin-top: 11px;
+  margin-right: 1px;
+}
+
+.menu__item {
+  font-family: "GothamPro";
+  font-size: 14px;
+  margin-right: 2px;
+  padding-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #f6f6f6;
+  border-bottom: 1px solid #f6f6f6;
+  transition: 0.7s background;
+}
+
+.menu__item:hover {
+  transition: 0.7s all;
+  background: #ffffff;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  cursor: pointer;
+}
+
+.menu__item .item__text {
+  margin-top: 4px;
+}
+
+.about-project {
+  padding-top: 21px;
+}
+
+.location {
+  padding-right: 4px;
+  padding-top: 29px;
+}
+
+.location .item__text {
+  margin-top: 4px;
+}
+
+.gallery {
+  padding-top: 19px;
 }

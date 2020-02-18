@@ -10,13 +10,25 @@
 }
 
 .container-site {
-  max-width: 1375px;
-  margin: 0 auto;
+  max-width: 1400px;
   display: flex;
   flex-flow: row nowrap;
+  background:#ffdf01;
 }
 
 .main-section {
   flex: 1250px;
+  animation-duration: 1s;
+  animation-name: moveBlock;
+}
+
+@keyframes moveBlock {
+  from {
+    transform: translateX(400px);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
 }
 
