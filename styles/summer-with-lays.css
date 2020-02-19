@@ -2,3 +2,106 @@
   background: url('../assets/images/summer-with-lays/background.jpg') no-repeat 0 0;
   height: 580px;
 }
+
+.summer-with-lays__icons {
+  max-width: 550px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin-left: 62px;
+  padding-top: 67px;
+}
+
+.icons__item {
+  width: 30%;
+  text-align: center;
+
+}
+
+.bg-icon {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.bg-photo {
+  background: url("../assets/images/summer-with-lays/photo.png") #ffffff no-repeat 50% 50%;
+  background-size: 92%;
+}
+
+.bg-heart {
+  background: url("../assets/images/summer-with-lays/heart.png") #ffffff no-repeat 50% 50%;
+  background-size: 90%;
+}
+
+.bg-box {
+  background: url("../assets/images/summer-with-lays/box.png") #ffffff no-repeat 50% 50%;
+  background-size: 90%;
+}
+
+.icons-text {
+  font-family: "GothamPro";
+  font-size: 16px;
+  margin-top: 17px;
+  color: #45370A;
+  line-height: 19px;
+}
+
+.box-text {
+  margin-top: 13px;
+}
+
+.icons-text__color {
+  color: #f73934;
+}
+
+.summer-with-lays__text {
+  margin: 49px 0 0 70px;
+}
+
+.summer-with-lays__item {
+  color: #f73934;
+}
+
+.text-summer,
+.text-medium,
+.text-lays {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.text-summer {
+  font-family: "GothamPro Medium";
+  font-size: 87.2px;
+}
+
+.letter-margin {
+  margin-left: -3px;
+}
+
+.text-medium,
+.text-lays {
+  font-family: "GothamPro Light";
+  font-size: 50px;
+}
+
+.text-medium {
+  margin-top: -11px;
+  letter-spacing: 1.8px;
+}
+
+.text-lays {
+  margin-top: -19px;
+  margin-left: -3px;
+}
+
+.text-lays-bold {
+  font-family: "GothamProBlack";
+  font-size: 78px;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  margin-left: -2px;
+}
+
