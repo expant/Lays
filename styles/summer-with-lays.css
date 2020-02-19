@@ -55,3 +55,53 @@
 .icons-text__color {
   color: #f73934;
 }
+
+.summer-with-lays__text {
+  margin: 49px 0 0 70px;
+}
+
+.summer-with-lays__item {
+  color: #f73934;
+}
+
+.text-summer,
+.text-medium,
+.text-lays {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.text-summer {
+  font-family: "GothamPro Medium";
+  font-size: 87.2px;
+}
+
+.letter-margin {
+  margin-left: -3px;
+}
+
+.text-medium,
+.text-lays {
+  font-family: "GothamPro Light";
+  font-size: 50px;
+}
+
+.text-medium {
+  margin-top: -11px;
+  letter-spacing: 1.8px;
+}
+
+.text-lays {
+  margin-top: -19px;
+  margin-left: -3px;
+}
+
+.text-lays-bold {
+  font-family: "GothamProBlack";
+  font-size: 78px;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  margin-left: -2px;
+}
+

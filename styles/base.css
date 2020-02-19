@@ -17,7 +17,7 @@
 }
 
 .main-section {
-  flex: 1250px;
+  flex: 89.28%;
   animation-duration: 1s;
   animation-name: moveBlock;
 }
